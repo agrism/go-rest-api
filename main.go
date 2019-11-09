@@ -14,7 +14,6 @@ import (
 
 var router *chi.Mux
 
-// var db *sql.DB
 var db = database.GetDb()
 
 func routers() *chi.Mux {
